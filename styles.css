@@ -30,11 +30,16 @@ body {
   .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
     font-size: 12px;
     background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
   .navbar-nav li a:active {
     color: #000000;
@@ -44,7 +49,7 @@ body {
   }
   .navbar-brand {
     font-family: unifrakturmaguntia;
-    font-size: 36px;
+    font-size: 40px;
     color:#000000;
   }
   .btn{
