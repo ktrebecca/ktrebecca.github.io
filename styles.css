@@ -76,3 +76,14 @@ body {
     text-decoration-color: #8e9d8c;
     text-underline-offset: 20%;
   }
+  #contactform {
+    text-align: center;
+    margin: auto;
+    width: 25vw;
+  }
+  #emaillabel, #namelabel, #messagelabel {
+    font-size: 12px;
+  }
+  .form-label {
+    font-size: 12px;
+  }
