@@ -41,15 +41,12 @@ body {
     top: 0;
     z-index: 1;
   }
-  .navbar-nav li a:active {
-    color: #000000;
-  }
   .navbar-nav  li a:hover {
     color: #8e9d8c !important;
   }
   .navbar-brand {
     font-family: unifrakturmaguntia;
-    font-size: 40px;
+    font-size: 48px;
     color:#000000;
   }
   .btn{
@@ -84,7 +81,7 @@ body {
   #contactform {
     text-align: center;
     margin: auto;
-    width: 25vw;
+    width: 50%;
   }
   #emaillabel, #namelabel, #messagelabel {
     font-size: 12px;
@@ -92,3 +89,14 @@ body {
   .form-label {
     font-size: 12px;
   }
+  @media (max-width: 600px) {
+    .navbar-brand {
+        font-size: 36px; /* Reduce font size on small devices */   /* Adjust padding */
+    }
+    .navbar {
+      padding: 8px;
+    }
+    #contactform{
+      width: 100%
+    }
+}
